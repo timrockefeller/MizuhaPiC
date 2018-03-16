@@ -1,11 +1,13 @@
-// MizuhaPiC.cpp: 定义控制台应用程序的入口点。
+//
 //
 
+//Game Engine
+
 #include "stdafx.h"
-
-
+using namespace Mizuha;
 int main()
 {
-    return 0;
-}
 
+
+	return 0;
+}
