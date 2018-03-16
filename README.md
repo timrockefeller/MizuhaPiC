@@ -1,34 +1,35 @@
+**警告：未完成 **
 
-警告：未完成 
- 
 # MizuhaPiC 
+
 谁说控制台不好用？黑白之间呈现的不仅仅是黑白单词。这控制台游戏引擎大概可以帮你应付大学cpp实例项目作业？ 
  
 ## 用法 
-把文件全部拖进去就好 
+
+ - v0.0：把文件全部拖进去就好 
  
-## API 
+## 内构进度 (0.2%)
 
-### classes
+ - 标准类
 
-#### Vector2
-| Variables | type | usage |
-|:-------------:|:-------------|
-| x | float | X component of the vector |
-| y | float | Y component of the vector |
+    **Object**：物件，包括 (10%)
+    
+    **Scene**(:Object)：场景，同样是个物件 (2%)
+    
+ - 渲染类
 
-| Functions | return type | usage |
-|:-------------:|:-------------|
-| normalized | Vector | Returns a vector have a magnitude of 1. |
-| magnitude | float | Returns the length of this vector. |
-| sqrMagnitude | float | Returns the squred length of this vector. |
-| Dot | float |点乘|
-| Project | float |投影|
-| Angle | float |夹角|
-| Distance | float |两向量终点距离|
-| operator- | Vector2 |向量相减|
-| operator+ | Vector2 |向量相加|
-| operator* | Vector2 |乘上参数|
-| operator/ | Vector2 |除以参数|
-| operator== | Vector2 |是否等价|
-| operator!= | Vector2 |否是等价|
+    **Mass**：材质板 (1%) **Working**
+    
+    **Pixe**：单位像素 (1%) **Working**
+    
+    **Renderer**：Output (0%)
+    
+ - 运算类
+
+    **Vector2**：连续向量，用于运动、位置等? (80%)
+
+    **Color**：颜色，含正片叠底，叠加等特效。(1%) **Working**
+    
+ - 读写类
+
+    **resorceLoader**：资源读入，资源格式待规定。

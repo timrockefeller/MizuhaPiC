@@ -19,9 +19,9 @@
     <Filter Include="源文件\build">
       <UniqueIdentifier>{3eefff00-f7cb-4fbf-bd69-5c12ecea21fb}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="ReadMe.txt" />
+    <Filter Include="头文件\preloader">
+      <UniqueIdentifier>{87dd7ea7-00ae-45b6-b867-e86087642372}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -37,10 +37,13 @@
       <Filter>头文件\renderer</Filter>
     </ClInclude>
     <ClInclude Include="Scene.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\renderer</Filter>
     </ClInclude>
     <ClInclude Include="resorceLoader.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\preloader</Filter>
+    </ClInclude>
+    <ClInclude Include="mass.h">
+      <Filter>头文件\renderer</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -56,11 +59,20 @@
     <ClCompile Include="Vector2.cpp">
       <Filter>源文件\build</Filter>
     </ClCompile>
-    <ClCompile Include="Scene.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="resorceLoader.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\build</Filter>
     </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>源文件\build</Filter>
+    </ClCompile>
+    <ClCompile Include="mass.cpp">
+      <Filter>源文件\build</Filter>
+    </ClCompile>
+    <ClCompile Include="Pixe.cpp">
+      <Filter>源文件\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
 </Project>

@@ -18,6 +18,7 @@
 
 // TODO: 在此处引用程序需要的其他头文件
 
+#include "mass.h"
 #include "Object.h"
 #include "Vector2.h"
 #include "Scene.h"
